@@ -1,0 +1,165 @@
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+
+.box {
+  height: 100%;
+}
+.badge {
+  display: flex;
+  gap: 1rem;
+}
+#mail,
+#notification {
+  margin-top: 10px;
+}
+
+Link {
+  text-decoration: none;
+}
+.display {
+  height: 100%;
+  width: 100%;
+  border-radius: 0px;
+}
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+.headingbutn {
+  margin-left: 50%;
+}
+.userpic {
+  height: 3rem;
+  width: 3rem;
+  overflow: hidden;
+  border-radius: 4px;
+}
+/* Table */
+#table {
+  margin: 3rem auto;
+  width: 80%;
+}
+.action {
+  display: flex;
+  gap: 5px;
+}
+.Adduserlist {
+  margin: 5rem 20rem;
+}
+/* Add text field */
+.Addtextfield {
+  width: 40rem;
+}
+/* Update text field */
+.Updatetextfield {
+  width: 27rem;
+  margin: 0.5rem !important;
+}
+
+/* Footer Section */
+.footer {
+  text-align: center;
+  padding: 10px;
+  color: white;
+  margin-top: 2rem;
+  height: 4rem;
+}
+
+/* Main Container */
+.display {
+  width: 100%;
+}
+
+.report {
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 47px;
+  width: 100%;
+}
+h2 {
+  margin: 0px;
+  color: black;
+}
+p {
+  margin-bottom: 0px;
+  padding-left: 30px;
+}
+.earning-monthly,
+.earning-annualy,
+.tasks,
+.pending {
+  background-color: whitesmoke;
+  height: 100px;
+  width: 425px;
+  border-radius: 10px;
+  padding-left: 20px;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.earning-monthly:hover {
+  transform: translateY(-0.5rem);
+  transition: all 0.4s ease-in-out;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+}
+
+.earning-annualy:hover {
+  transform: translateY(-0.5rem);
+  transition: all 0.4s ease-in-out;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+}
+.tasks:hover {
+  transform: translateY(-0.5rem);
+  transition: all 0.4s ease-in-out;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+}
+.pending:hover {
+  transform: translateY(-0.5rem);
+  transition: all 0.4s ease-in-out;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+}
+
+.earning-monthly {
+  border: solid 0.3px royalblue;
+  border-left: solid 5px royalblue;
+  color: royalblue;
+}
+.earning-annualy {
+  border: solid 0.3px green;
+  border-left: solid 5px green;
+  color: green;
+}
+.tasks {
+  border: solid 0.3px skyblue;
+  border-left: solid 5px skyblue;
+  color: skyblue;
+}
+.pending {
+  border: solid 0.3px orangered;
+  border-left: solid 5px orangered;
+  color: orangered;
+}
+.icons {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 30px;
+}
+
+@media only screen and (max-width: 900px) {
+  body {
+    background-color: red;
+  }
+
+  .Adduserlist {
+    margin: 1rem 1rem;
+  }
+  .Addtextfield {
+    width: 20rem;
+  }
+}
